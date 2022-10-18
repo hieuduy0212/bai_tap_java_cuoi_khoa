@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    height: 600px;
+    margin: 25px auto;
+    border: 3px solid #63746d;
+    border-radius: 30px;
+}
+h1{
+    text-align: center;
+    font-size: 60px;
+}

@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    height: 600px;
+    margin: 25px auto;
+    border: 3px solid #065535;
+    border-radius: 30px;
+}
+.header{
+    background-color: aqua;
+    text-align: center;
+    height: 350px;
+    margin-top: 15px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3YIEAQdcWyMUdUHRwP5L3pU6FyWaaqPyUIw&usqp=CAU);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header h1, p{
+    color: white;
+}
+.nav ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+}
+.nav ul li a{
+    font-size: 30px;
+    padding: 15px;
+}
